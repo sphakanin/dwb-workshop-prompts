@@ -1,5 +1,53 @@
 # Dev with Bebz — Workshop Prompts
 
+**English** · [ภาษาไทย](#ภาษาไทย)
+
+Reusable prompts, commands, and practical guides for **Dev with Bebz** workshops. Learn the workflow, copy the examples, and adapt them to your own projects.
+
+These workshops focus on transferable techniques rather than a particular AI model or provider. Choose tools that support the capabilities each workshop requires.
+
+## Workshops
+
+| Episode | Workshop | Included |
+|---|---|---|
+| 01 | [From 2 Photos to a Scroll-driven Cinematic Website](workshops/01-cinematic-scroll-website/README.md) | Video prompt, FFmpeg frame extraction, website prompt, and quality checks |
+
+## Getting started
+
+1. Open a workshop and read its README.
+2. Prepare the images, video, or data listed there.
+3. Copy the prompts and replace placeholders with your own details.
+4. Run the workflow with compatible tools and inspect the actual results.
+
+To download everything, select **Code → Download ZIP** on this repository.
+
+Prompts are starting points. Results depend on your source material and tools. Free options may have quotas or changing service terms.
+
+## Repository structure
+
+```text
+workshops/
+└── 01-cinematic-scroll-website/
+    ├── README.md
+    ├── video-prompt.md
+    ├── ffmpeg-commands.md
+    └── website-prompt.md
+```
+
+Future workshops will have their own folders, such as `02-topic-name`, with goals, prerequisites, instructions, and checks. Add each new workshop to the table above. Keep existing folder paths stable so links from older videos continue to work.
+
+## What is included
+
+This repository contains learning materials. Source photos, large videos, extracted frames, and finished websites are not included unless a workshop explicitly says otherwise.
+
+Found a problem? Open an Issue with the workshop name and the steps needed to reproduce it. Do not include private information or API keys.
+
+---
+
+## ภาษาไทย
+
+# Dev with Bebz — Workshop Prompts
+
 รวมพรอมป์ต์ คำสั่ง และวิธีใช้ประกอบเวิร์กช็อปของ **Dev with Bebz** เพื่อให้เปิดอ่าน คัดลอก และนำไปปรับใช้กับงานของคุณเองได้
 
 เน้นเข้าใจวิธีทำ ไม่ผูกกับรุ่นหรือค่าย AI แต่ละเวิร์กช็อประบุสิ่งที่ต้องเตรียม ขั้นตอน และจุดที่ควรตรวจสอบไว้ในโฟลเดอร์ของตัวเอง
