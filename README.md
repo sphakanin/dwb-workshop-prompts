@@ -11,6 +11,7 @@ These workshops focus on transferable techniques rather than a particular AI mod
 | Episode | Workshop | Included |
 |---|---|---|
 | 01 | [From 2 Photos to a Scroll-driven Cinematic Website](workshops/01-cinematic-scroll-website/README.md) | Video prompt, FFmpeg frame extraction, website prompt, and quality checks |
+| 02 | [Build Blender 3D Models with Sol + MCP and Astra](workshops/02-blender-sol-astra-mcp/README.md) | Structural prompt, visual-polish prompt, browser review, and structural validation |
 
 ## Getting started
 
@@ -27,11 +28,15 @@ Prompts are starting points. Results depend on your source material and tools. F
 
 ```text
 workshops/
-└── 01-cinematic-scroll-website/
+├── 01-cinematic-scroll-website/
+│   ├── README.md
+│   ├── video-prompt.md
+│   ├── ffmpeg-commands.md
+│   └── website-prompt.md
+└── 02-blender-sol-astra-mcp/
     ├── README.md
-    ├── video-prompt.md
-    ├── ffmpeg-commands.md
-    └── website-prompt.md
+    ├── structural-prompt.md
+    └── visual-polish-prompt.md
 ```
 
 Future workshops will have their own folders, such as `02-topic-name`, with goals, prerequisites, instructions, and checks. Add each new workshop to the table above. Keep existing folder paths stable so links from older videos continue to work.
@@ -57,6 +62,7 @@ Found a problem? Open an Issue with the workshop name and the steps needed to re
 | ตอน | เวิร์กช็อป | เนื้อหา |
 |---|---|---|
 | 01 | [จาก 2 รูป สู่ Scroll-driven Cinematic Website](workshops/01-cinematic-scroll-website/README.md) | Prompt สร้างวิดีโอ, แตกเฟรมด้วย FFmpeg, Prompt สร้างเว็บ และวิธีตรวจผล |
+| 02 | [ปั้นโมเดล 3D ใน Blender ด้วย Sol + MCP และ Astra](workshops/02-blender-sol-astra-mcp/README.md) | Prompt ขึ้นโครง, Prompt ตกแต่ง, ตรวจผ่านเบราว์เซอร์ และตรวจโครงสร้าง |
 
 ## วิธีใช้
 
@@ -73,11 +79,15 @@ Found a problem? Open an Issue with the workshop name and the steps needed to re
 
 ```text
 workshops/
-└── 01-cinematic-scroll-website/
+├── 01-cinematic-scroll-website/
+│   ├── README.md
+│   ├── video-prompt.md
+│   ├── ffmpeg-commands.md
+│   └── website-prompt.md
+└── 02-blender-sol-astra-mcp/
     ├── README.md
-    ├── video-prompt.md
-    ├── ffmpeg-commands.md
-    └── website-prompt.md
+    ├── structural-prompt.md
+    └── visual-polish-prompt.md
 ```
 
 เวิร์กช็อปถัดไปจะเพิ่มเป็นโฟลเดอร์ใหม่ เช่น `02-topic-name` โดยมี README อธิบายเป้าหมาย สิ่งที่ต้องเตรียม วิธีใช้ไฟล์ และวิธีตรวจผล แล้วเพิ่มลิงก์ในสารบัญด้านบน
